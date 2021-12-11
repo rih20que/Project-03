@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.banner-section{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header{
+	width: 100%;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;  
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo a{
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #F5F5F5;
+}
+
+.logo a span{
+	color: #fca311;
+	font-size: 12px;
+}
+
+.menu-item, .social-icon{
+	display: inline-block;
+}
+
+.menu-item li, .social-icon li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.menu-item li a{
+	font-family: 'Poppins', sans-serif;
+	color: #F5F5F5;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.social-icon li a i{
+	color: #F5F5F5;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+.menu button{
+	background: transparent;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+    border: 2px solid #fc5130;
+    margin-left: 20px;
+}
+
+
+.menu button:hover{
+	background: linear-gradient(90deg, #fc5130, #fca311);
+	cursor: pointer;
+}
+
+.banner{
+	width: 100%;
+	text-align: center;
+}
+
+.banner-content{
+	margin-top: 180px;
+}
+
+.banner-content h1{
+	font-size: 96px;
+	font-weight: 900;
+	font-family: 'Open sans', sans-serif;
+	color: #fca311;
+	margin-bottom: 40px;
+}
+
+.banner-content button{
+	background:  linear-gradient(90deg, #fc5130, #fca311);
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+    border: none;
+    margin-left: 20px;
+}
+.newsletter-content{
+	margin-bottom: 50px;
+}
+
+
+.newsletter{
+	background: #0A131A;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.newsletter-content h2{
+    font-family: 'Open sans', sans-serif;
+    font-size: 48px;
+    color: #f9f9f9;
+}
+
+.newsletter-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+.newsletter-form{
+	width: 70%;
+	margin: auto;
+}
+
+.newsletter-form input, .newsletter-form select{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 20px;
+	width: 46%;
+	background: transparent;
+	border: none;
+	border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.newsletter-form form div{
+	margin-bottom: 20px;
+}
